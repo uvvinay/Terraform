@@ -19,8 +19,7 @@ sudo systemctl start jenkins
 #installing docker
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh ./get-docker.sh --dry-run
-#installing git
-sudo apt-get install git -y
+
 #installing kuberenetes
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 #validating binary
